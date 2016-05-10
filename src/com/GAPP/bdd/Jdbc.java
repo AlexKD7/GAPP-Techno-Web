@@ -14,7 +14,7 @@ public class Jdbc {
 	}
 	public static void sauverEnBase(String login){
 		// Information d'accès à la base de donnéees
-		String url = "jdbc:mysql://localhost";
+		String url = "jdbc:mysql://localhost/gapp";
 		String login1 = "admin";
 		String passwd = "1234";
 		Connection cn =null;
