@@ -11,9 +11,9 @@ public class Jdbc {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		sauverEnBase("Momo");
+		sauverEnBase("Alexis", "alexis");
 	}
-	public static void sauverEnBase(String login1){
+	public static void sauverEnBase(String login, String password){
 		// Information d'accès à la base de donnéees
 		System.out.println("eee");
 		String URL = "jdbc:mysql://localhost:3306/gapp";
@@ -32,7 +32,7 @@ public class Jdbc {
 			//Etape 3 : Création d'un statement
 			st = (Statement) cn.createStatement();
 			System.out.println("eee4");
-			String sql = "INSERT INTO 'utilisateur'('login')VALUES('"+login1+"')";
+			String sql = "INSERT INTO `utilisateur`(`login`) VALUES (login,password)";
 			//Etape 4 : execution requête
 			st.executeUpdate(sql);
 			System.out.println("eee5");
