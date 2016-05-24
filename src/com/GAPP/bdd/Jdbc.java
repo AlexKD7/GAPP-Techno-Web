@@ -13,13 +13,13 @@ public class Jdbc {
 
 		sauverEnBase("Momo");
 	}
-	public static void sauverEnBase(String login){
+	public static void sauverEnBase(String login1){
 		// Information d'accès à la base de donnéees
 		System.out.println("eee");
-		String URL = "jdbc:mysql://localhost/Gapp1";
+		String URL = "jdbc:mysql://localhost:3306/gapp";
 		System.out.println("eee1");
-		String login1 = "root";
-		String passwd = "root";
+		String log = "admin";
+		String passwd = "admin";
 		Connection cn =null;
 		Statement st =null;
 		try{
@@ -27,12 +27,12 @@ public class Jdbc {
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("eee2");
 			//Etape 2 : Récupération de la connexion
-			cn = (Connection) DriverManager.getConnection(URL, login1, passwd);
+			cn = (Connection) DriverManager.getConnection(URL, log, passwd);
 			System.out.println("eee3");
 			//Etape 3 : Création d'un statement
 			st = (Statement) cn.createStatement();
 			System.out.println("eee4");
-			String sql = "INSERT INTO 'utilisateur' ('login1') VALUES ('"+ login1 +"')";
+			String sql = "INSERT INTO 'utilisateur'('login')VALUES('"+login1+"')";
 			//Etape 4 : execution requête
 			st.executeUpdate(sql);
 			System.out.println("eee5");
