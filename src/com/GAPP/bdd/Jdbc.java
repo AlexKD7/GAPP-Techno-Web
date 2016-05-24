@@ -32,7 +32,7 @@ public class Jdbc {
 			//Etape 3 : Création d'un statement
 			st = (Statement) cn.createStatement();
 			System.out.println("eee4");
-			String sql = "INSERT INTO `utilisateur`(`login`) VALUES (login,password)";
+			String sql = "INSERT INTO 'utilisateur'('login', 'password') VALUES (login,password)";
 			//Etape 4 : execution requête
 			st.executeUpdate(sql);
 			System.out.println("eee5");
