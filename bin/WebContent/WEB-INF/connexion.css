@@ -1,0 +1,59 @@
+#BoxConnexion {
+	background-color:white;
+	Display : block;
+	text-align:center;
+	padding: 25px 25px 25px 25px;
+	border: 3px solid black;
+	width : 400px;
+	height : 250px;
+	margin-top: 100px;
+	box-shadow: 6px 6px 0px black;
+	border-radius:5px;
+}
+
+#BoxLine_1 {
+	border: 3px solid black;
+	margin: 0px 15px 15px 0px;
+	vertical-align:center;
+	border-radius:5px;
+}
+
+#BoxLine_2 {
+	border: 3px solid black;
+	margin: 0px 15px 15px 0px;
+	vertical-align:center;
+	border-radius:5px;
+}
+
+#BoxLine_3 {
+	background-color:#808080;
+	Display : block;
+	text-align:center;
+	border: 3px solid black;
+	margin: 0px 15px 15px 0px;
+	width : 200px;
+	height : 30px;
+	margin-left: 100px;
+	vertical-align:center;
+	border-radius:5px;
+}
+
+#BoxLine_3:hover {
+	background-color:#D3D3D3;
+}
+
+
+#Title {
+	font-size: 30px;
+	font-weight:bold;
+}
+
+footer>p {
+	text-align:center;
+	margin-top:100px;
+	border: 3px solid black;
+	border-radius:5px;
+	background-color:white;
+	margin : 100px 50px 0px 50px;
+}
+

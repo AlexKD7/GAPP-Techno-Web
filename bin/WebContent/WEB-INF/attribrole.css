@@ -1,0 +1,88 @@
+.navbar {
+	border: 3px solid black;
+	border-radius:5px;
+}
+
+header {
+	background-color:white;
+	Display:inline-block;
+	height : 20px;
+	width: 900px;
+	border: 3px solid black;
+	border-radius:5px;
+}
+
+#BoxRoleRight {
+	background-color:white;
+	Display : inline-block;
+	text-align:center;
+	padding: 25px 25px 25px 25px;
+	border: 3px solid black;
+	height:600px;
+	border-radius:5px;
+}
+
+#BoxRoleLeft {
+	background-color:white;
+	Display : inline-block;
+	text-align:center;
+	padding: 25px 25px 25px 25px;
+	border: 3px solid black;
+	height:600px;
+	border-radius:5px;
+}
+
+#Box {
+	border: 3px solid black;
+	border-radius:5px;
+}
+
+
+#Title {
+	font-size: 30px;
+	font-weight:bold;
+}
+
+
+#Case {
+	width:189px;
+	margin-left:-25px;
+	border: 3px solid black;
+}
+
+#FirstRow {
+	border-top:3px solid black;
+	border-left:3px solid black;
+	border-right:3px solid black;
+	border-bottom:3px solid black;
+}
+
+#Row {
+	border-left:3px solid black;
+	border-right:3px solid black;
+}
+
+#LastRow {
+	border-left:3px solid black;
+	border-right:3px solid black;
+	border-bottom:3px solid black;
+}
+
+.PairRow {
+	background-color:#B8B8B8;
+	height:50px;
+}
+
+.ImpairRow {
+	background-color:	#F0F0F0 ;
+	height:50px;
+}
+
+footer>p {
+	text-align:center;
+	margin-top:100px;
+	border: 3px solid black;
+	border-radius:5px;
+	background-color:white;
+	margin : 20px 50px 0px 50px;
+}

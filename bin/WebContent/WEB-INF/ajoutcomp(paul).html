@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projet techno web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="description" content="">
+    <meta name="author" content="">
+  
+	
+</head>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Project name</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+<body>
+	<div class="container"><!-- Titre -->
+      <div class="starter-template">
+        <h1>Ajout d'une compétence</h1>
+        <p class="lead">Veuillez rentrer ci dessous une nouvelle compétence</p>
+  </div>
+  <fieldset>
+    <form method="post" action="traitement.php">
+      <label for="nomComp">Nom de la compétence</label> : <input type="text" name="nomComp" id="nomComp" placeholder="ex : Management"><br/>
+      <label>Famille de compétence</label> : <select name="nomFam">
+        <option>Famille de compétences</option>
+        >
+      </select> </br>
+      <label for="description">Description de la compétence :</label> </br> <textarea name="description" id="description" rows="10" cols="50">
+        La description de la compétence ici 
+    </textarea></br>
+     
+    <input type="submit" value="sauvegarder" id="sauvegarde">
+    </form>
+  </fieldset>
+      
+
+</body>
+</html>
