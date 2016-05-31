@@ -13,7 +13,7 @@ public class Jdbc {
 
 		sauverEnBase("Alexis", "alexis");
 	}
-	public static void sauverEnBase(String login, String password){
+	public static void sauverEnBase(String login1, String password1){
 		// Information d'accès à la base de donnéees
 		System.out.println("eee");
 		String URL = "jdbc:mysql://localhost:3306/gapp";
@@ -32,7 +32,7 @@ public class Jdbc {
 			//Etape 3 : Création d'un statement
 			st = (Statement) cn.createStatement();
 			System.out.println("eee4");
-			String sql = "INSERT INTO 'utilisateur'('login', 'password') VALUES (login,password)";
+			String sql = "INSERT INTO `gapp`.`utilisateur` (`login`, `password`) VALUES ('"+login1+"', '"+password1+"')";
 			//Etape 4 : execution requête
 			st.executeUpdate(sql);
 			System.out.println("eee5");
