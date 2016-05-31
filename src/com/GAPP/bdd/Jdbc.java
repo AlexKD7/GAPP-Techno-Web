@@ -11,7 +11,7 @@ public class Jdbc {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		sauverEnBase("Alexis", "alexis");
+		sauverEnBase("Eleve", "alexis");
 	}
 	public static void sauverEnBase(String login1, String password1){
 		// Information d'accès à la base de donnéees
